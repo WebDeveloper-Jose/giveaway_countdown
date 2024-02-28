@@ -1,0 +1,58 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    font-family: 'Arial', sans-serif;
+}
+
+.giveaway-container {
+    width: 60%;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.giveaway-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.giveaway-description {
+    margin: 20px 0;
+    color: #333;
+    line-height: 1.6;
+}
+
+#timer {
+    display: flex;
+    justify-content: center;
+}
+
+.time-section {
+    margin: 0 15px;
+    padding: 10px 20px;
+    background-color: #444;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.time-section span {
+    display: block;
+}
+
+.time-label {
+    font-size: 0.8em;
+    color: #bbb;
+}
+
+#days, #hours, #minutes, #seconds {
+    font-size: 2em;
+    margin-bottom: 5px;
+}
